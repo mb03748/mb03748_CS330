@@ -1,4 +1,4 @@
-module tbEx
+module test_bench
 (
 );
 	reg [63:0]a;
