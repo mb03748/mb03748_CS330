@@ -1,5 +1,5 @@
-vlog registerFile.v tb.v
-vsim -novopt work.tb 
-add wave sim:/tb/*
+vlog tb.v Instruction_Memory.v
+vsim -novopt work.tb
 view wave
-run 500ns
+add wave sim:/tb/*
+run 600ns
